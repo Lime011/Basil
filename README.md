@@ -5,7 +5,7 @@ Basil is an LFS based operating system. It will pretty much follow the LFS Progr
 Use at your own risk.
 
 How to Format Your Drive.
-  1. Use sudo fdisk -l to find the name of your USB drive eg.sdb.
+  1. Use sudo fdisk -l to find the name of your USB drive eg. sdb.
   2. in lfs.sh, change the variable "LFS_DISK" to the name of your drive.
   3. Save file
   4. Run with bash lfs.sh. Note, do not run as root.
